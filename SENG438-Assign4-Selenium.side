@@ -1,0 +1,1382 @@
+{
+  "id": "9f9eef5c-c061-425f-ae40-f652d9497dd8",
+  "version": "2.0",
+  "name": "SENG438-Assign4",
+  "url": "https://www.ikea.com/ca/en/",
+  "tests": [{
+    "id": "96a76ca0-876f-4bb9-b077-472d0d2a072c",
+    "name": "Test1ValidLogin",
+    "commands": [{
+      "id": "6208273e-362e-43c2-949d-48a5158a33c9",
+      "comment": "",
+      "command": "open",
+      "target": "/ca/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0755836e-7f8e-4229-80a9-3b44009df6c5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad5a1e13-4517-46a7-ad46-35086e48115a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hnf-location__btn-wrapper--postalcode > .hnf-btn--small .svg-icon",
+      "targets": [
+        ["css=.hnf-location__btn-wrapper--postalcode > .hnf-btn--small .svg-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "703046e0-6c2d-47f0-858f-f4e24b9b4e29",
+      "comment": "",
+      "command": "click",
+      "target": "css=#hnf-header-postalcodepicker .hnf-nudge-tip .hnf-btn__inner",
+      "targets": [
+        ["css=#hnf-header-postalcodepicker .hnf-nudge-tip .hnf-btn__inner", "css:finder"],
+        ["xpath=//li[@id='hnf-header-postalcodepicker']/div/div/div/div[2]/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62fe8168-75b1-4c9a-aa51-d2051037b814",
+      "comment": "",
+      "command": "click",
+      "target": "css=#loyalty-modal-button > .hnf-btn__inner",
+      "targets": [
+        ["css=#loyalty-modal-button > .hnf-btn__inner", "css:finder"],
+        ["xpath=//a[@id='loyalty-modal-button']/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hej! Log in or sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c2e9c6d-7dcb-458a-9aa8-6d51714a1ce3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#header__button > .btn__inner",
+      "targets": [
+        ["css=#header__button > .btn__inner", "css:finder"],
+        ["xpath=//a[@id='header__button']/span", "xpath:idRelative"],
+        ["xpath=//section/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6a62277-c489-4601-b4c2-7fbfd5b9ced6",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "971b5963-35c6-48bd-b62c-c904dec324d8",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "boijackie17@gmail.com"
+    }, {
+      "id": "e3a65580-71bd-4b47-b47c-70622a233ba5",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a1d2e6f-a1b4-4731-9fb1-708520ed10bf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn--icon-tertiary > .btn__inner",
+      "targets": [
+        ["css=.btn--icon-tertiary > .btn__inner", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Show password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d07d21c0-93fd-4c2a-9892-ae5336f2bb41",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn--icon-tertiary > .btn__inner",
+      "targets": [
+        ["css=.btn--icon-tertiary > .btn__inner", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Show password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20cb4857-60ee-4929-b33a-f957d703db38",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn--icon-tertiary > .btn__inner",
+      "targets": [
+        ["css=.btn--icon-tertiary > .btn__inner", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hide opening hours password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47ba41ce-da8d-4ac7-a341-fd4506e98c5d",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b421b16-0d2a-4f72-9958-9effc81b9fd2",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "Password_1"
+    }, {
+      "id": "eba0433b-ac0e-4e58-9bd4-217b35efa6b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn--emphasised .btn__label",
+      "targets": [
+        ["css=.btn--emphasised .btn__label", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/button/span/span", "xpath:idRelative"],
+        ["xpath=//form/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da7a3a9f-cbec-43fc-b936-54c88c8d616b",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ebefb03d-58c4-4569-b09a-ffef572fd7be",
+    "name": "Test2InvalidLogin",
+    "commands": [{
+      "id": "e0fe0174-560c-47fe-9390-49026a008806",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ikea.com/ca/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82ed0e48-a7e9-406e-94e7-b3b9853a0cbd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5164182e-317c-481c-8168-a0fdd3c30383",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#loyalty-modal-button > .hnf-btn__inner",
+      "targets": [
+        ["css=#loyalty-modal-button > .hnf-btn__inner", "css:finder"],
+        ["xpath=//a[@id='loyalty-modal-button']/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hej! Log in or sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23b448db-fb0c-4537-9db2-a86268e478ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=#loyalty-modal-button > .hnf-btn__inner",
+      "targets": [
+        ["css=#loyalty-modal-button > .hnf-btn__inner", "css:finder"],
+        ["xpath=//a[@id='loyalty-modal-button']/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hej! Log in or sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b76d360a-b578-42cd-a0d1-5a984f1fdb0c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#loyalty-modal-button > .hnf-btn__inner",
+      "targets": [
+        ["css=#loyalty-modal-button > .hnf-btn__inner", "css:finder"],
+        ["xpath=//a[@id='loyalty-modal-button']/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hej! Log in or sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3aa4aaec-f9a8-4efe-b2a3-c877269e694c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#header__button > .btn__inner",
+      "targets": [
+        ["css=#header__button > .btn__inner", "css:finder"],
+        ["xpath=//a[@id='header__button']/span", "xpath:idRelative"],
+        ["xpath=//section/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55f80e68-4ed6-4e52-820b-9df85dccfede",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9698be1-cf02-45d1-94ca-8f869fd1d315",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "jackieboi15@gmail.com"
+    }, {
+      "id": "b0070bb3-5a10-4bc5-bf2a-7a6f50a2b894",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33c8283c-f0f8-410a-ae63-ce6a2dc0e062",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn--icon-tertiary > .btn__inner",
+      "targets": [
+        ["css=.btn--icon-tertiary > .btn__inner", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Show password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63b85db6-27ac-4a3c-b079-578adae68995",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn--icon-tertiary > .btn__inner",
+      "targets": [
+        ["css=.btn--icon-tertiary > .btn__inner", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Show password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91a10459-26ec-441b-af1f-3e6ff79457c8",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.btn--icon-tertiary > .btn__inner",
+      "targets": [
+        ["css=.btn--icon-tertiary > .btn__inner", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Show password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "493e4c07-883c-4fe8-9cc0-6756bbe75d44",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.input-field--trailing-icon > .input-field__wrapper",
+      "targets": [
+        ["css=.input-field--trailing-icon > .input-field__wrapper", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58c7861e-a6b6-4abb-b3aa-7c97201b4b55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-field--trailing-icon > .input-field__wrapper",
+      "targets": [
+        ["css=.input-field--trailing-icon > .input-field__wrapper", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9675f6d1-8eed-44d4-80dd-4ff50a76fa09",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4762511f-726b-49da-b81e-c0d6b388b8f9",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "Password_2"
+    }, {
+      "id": "85a9d47e-3b17-4f28-a95d-02773ce7f556",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn--icon-tertiary > .btn__inner",
+      "targets": [
+        ["css=.btn--icon-tertiary > .btn__inner", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Show password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bc83042-71c5-45dd-9d6e-666a5a163790",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn--emphasised .btn__label",
+      "targets": [
+        ["css=.btn--emphasised .btn__label", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/button/span/span", "xpath:idRelative"],
+        ["xpath=//form/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f06d735-8f73-4fb4-985a-a4a25aabac1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-EHOje",
+      "targets": [
+        ["css=.sc-EHOje", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]", "xpath:idRelative"],
+        ["xpath=//body/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "09f3a956-7d6b-429d-944b-6bb7e8450566",
+    "name": "Test1ValidSearch",
+    "commands": [{
+      "id": "fc434901-4dcd-4d76-b4e1-d7716b8196f2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ikea.com/ca/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3fe8aa2-9792-4221-9f8a-ba409770cfad",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20d78c31-1c01-4fc6-a66f-125bfd50397f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#hnf-header-postalcodepicker .hnf-nudge-tip .hnf-btn__inner",
+      "targets": [
+        ["css=#hnf-header-postalcodepicker .hnf-nudge-tip .hnf-btn__inner", "css:finder"],
+        ["xpath=//li[@id='hnf-header-postalcodepicker']/div/div/div/div[2]/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29dfc31c-bc08-4a28-9e18-d4364743ca43",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.search-field__input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "605a0851-ef94-4384-bf2a-7f51a22a0964",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.search-field__input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Sofa Bed"
+    }, {
+      "id": "e4a2f549-80d6-42b7-8e5b-25a6bb0bc22e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.universal-item:nth-child(1) .universal-item__title",
+      "targets": [
+        ["css=.universal-item:nth-child(1) .universal-item__title", "css:finder"],
+        ["xpath=//ol[@id='search-suggestions']/li/a/span/span", "xpath:idRelative"],
+        ["xpath=//li/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a95a8edc-9c37-4a94-b3b9-89eece68603b",
+    "name": "Test2InvalidSearch",
+    "commands": [{
+      "id": "71dac192-bb52-4b3c-8a67-87cf257a3172",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ikea.com/ca/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14f8b313-edd4-4aed-98a3-cfcb1d4e8000",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a354e604-0abf-40fc-bc41-c5a8447ea490",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.search-field__input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b57541d4-1a3a-4e0d-ab6c-1a4c229d7ed7",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.search-field__input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "this does not exist"
+    }, {
+      "id": "bc02e7e1-2063-4183-9190-df6012553624",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-box__searchbutton",
+      "targets": [
+        ["id=search-box__searchbutton", "id"],
+        ["css=#search-box__searchbutton", "css:finder"],
+        ["xpath=//button[@id='search-box__searchbutton']", "xpath:attributes"],
+        ["xpath=//span[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9955f923-028f-4096-b785-15917e62b1bd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=search-box__searchbutton",
+      "targets": [
+        ["id=search-box__searchbutton", "id"],
+        ["css=#search-box__searchbutton", "css:finder"],
+        ["xpath=//button[@id='search-box__searchbutton']", "xpath:attributes"],
+        ["xpath=//span[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d3dc62f-f0fa-4955-8d94-321d93ac40e2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=search-box__searchbutton",
+      "targets": [
+        ["id=search-box__searchbutton", "id"],
+        ["css=#search-box__searchbutton", "css:finder"],
+        ["xpath=//button[@id='search-box__searchbutton']", "xpath:attributes"],
+        ["xpath=//span[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7e535a5-8c04-4a55-b978-4cd6576d7dc2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.search-summary__heading",
+      "targets": [
+        ["css=.search-summary__heading", "css:finder"],
+        ["xpath=//main[@id='content']/div/div/div/section/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Showing matches for \"this does not exist\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a02ff790-70cb-463c-ac95-01b67fb22bc7",
+    "name": "TestAddToCart",
+    "commands": [{
+      "id": "a7acf21e-a490-4e0c-b42a-f6f2da371458",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ikea.com/ca/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35f31ee4-b8c7-4afc-8856-97ecd5caa9fc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "030adfa7-5591-48d4-9fef-13943c0e8da6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hnf-btn--open-menu > .hnf-btn__inner",
+      "targets": [
+        ["css=.hnf-btn--open-menu > .hnf-btn__inner", "css:finder"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "531e0375-d891-4115-bce4-d8d0dae4bb29",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hnf-menu__nav__main > li:nth-child(1) > .hnf-link",
+      "targets": [
+        ["css=.hnf-menu__nav__main > li:nth-child(1) > .hnf-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Products')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.ikea.com/ca/en/cat/products-products/')])[2]", "xpath:href"],
+        ["xpath=//div[3]/nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3592232-9484-41a8-a2c0-8fc1f9e635fc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Outdoor",
+      "targets": [
+        ["linkText=Outdoor", "linkText"],
+        ["css=.hnf-menu__nav2:nth-child(2) > .hnf-menu__nav2__main > li:nth-child(8) > .hnf-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Outdoor')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/cat/outdoor-od001/')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "474442a1-f3d9-4c44-8eb6-38bc1445dbdf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Outdoor furniture",
+      "targets": [
+        ["linkText=Outdoor furniture", "linkText"],
+        ["css=li:nth-child(8) li:nth-child(2) > .hnf-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Outdoor furniture')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.ikea.com/ca/en/cat/outdoor-furniture-od003/')])[2]", "xpath:href"],
+        ["xpath=//li[8]/nav/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89f18833-c05a-4c36-ae0a-4fef019b6f88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vn-link:nth-child(1) > .vn__nav__title",
+      "targets": [
+        ["css=.vn-link:nth-child(1) > .vn__nav__title", "css:finder"],
+        ["xpath=//nav/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Outdoor seating')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1af699f4-659a-4bb7-a4b3-18852e229ede",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.vn-link:nth-child(2) > .vn__nav__title",
+      "targets": [
+        ["css=.vn-link:nth-child(2) > .vn__nav__title", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Outdoor sofa combinations')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c57ec66-4382-4661-a516-1af1417a0c14",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.vn-link:nth-child(3) > .vn__nav__title",
+      "targets": [
+        ["css=.vn-link:nth-child(3) > .vn__nav__title", "css:finder"],
+        ["xpath=//a[3]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Outdoor sofa sections')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f946fdf-8ae6-4779-a245-5e6dcf11fe08",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.vn-link:nth-child(3) > .vn__nav__title",
+      "targets": [
+        ["css=.vn-link:nth-child(3) > .vn__nav__title", "css:finder"],
+        ["xpath=//a[3]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Outdoor sofa sections')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1adc8a7f-19c1-419c-aaab-7f8d2f0b5a26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plp-fragment-wrapper:nth-child(2) .pip-aspect-ratio-box:nth-child(2) > .pip-image",
+      "targets": [
+        ["css=.plp-fragment-wrapper:nth-child(2) .pip-aspect-ratio-box:nth-child(2) > .pip-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.ikea.com/ca/en/images/products/naemmaroe-lounge-chair-outdoor-light-brown-stained__1185528_pe898427_s5.jpg?f=xxs')]", "xpath:img"],
+        ["xpath=//div[2]/div[2]/div/div/a/div/span[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a508afd-204e-4f21-a560-2c3e9c9818e1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#pip-media-2 .pip-image",
+      "targets": [
+        ["css=#pip-media-2 .pip-image", "css:finder"],
+        ["xpath=(//img[@alt='NÄMMARÖ Lounge chair, outdoor, light brown stained'])[2]", "xpath:img"],
+        ["xpath=//div[@id='pip-media-2']/button/span/img", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3fbd856-76b3-4554-bd09-38824e613c8f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#pip-media-2 .pip-image",
+      "targets": [
+        ["css=#pip-media-2 .pip-image", "css:finder"],
+        ["xpath=(//img[@alt='NÄMMARÖ Lounge chair, outdoor, light brown stained'])[2]", "xpath:img"],
+        ["xpath=//div[@id='pip-media-2']/button/span/img", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "661b1694-84ab-41fa-ae91-092673a6453e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pip-btn--fluid .pip-btn__label",
+      "targets": [
+        ["css=.pip-btn--fluid .pip-btn__label", "css:finder"],
+        ["xpath=//div[@id='pip-buy-module-content']/div[4]/div/div/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7fbdc71-0a9d-484f-ba12-6b45d8b617cd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2ab26a5-460e-4b1d-a428-5bf28bab5451",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rec-btn--icon-primary-inverse > .rec-btn__inner",
+      "targets": [
+        ["css=.rec-btn--icon-primary-inverse > .rec-btn__inner", "css:finder"],
+        ["xpath=//div[3]/div/div/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eca7fb38-a98a-48da-8782-3b48607713fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-shopping-cart-icon",
+      "targets": [
+        ["css=.js-shopping-cart-icon", "css:finder"],
+        ["xpath=//li[4]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3a44cb4-1945-4df5-83de-59f152672d1e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=NÄMMARÖ",
+      "targets": [
+        ["linkText=NÄMMARÖ", "linkText"],
+        ["css=.product_name__TsEv2 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'NÄMMARÖ')]", "xpath:link"],
+        ["xpath=//ul[@id='aria_product_description_40510306']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/p/-40510306')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'NÄMMARÖ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "eb18b57c-11a7-4a42-a6d0-6534e7ce9121",
+    "name": "TestRemoveFromCart",
+    "commands": [{
+      "id": "50df0e90-67dd-4fae-b6e5-3226be0426e0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ikea.com/ca/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4231003a-a609-43b2-ba5a-7efe7d04a512",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "352c98b0-5f0f-4232-b4c9-ea60568585c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hnf-btn--open-menu > .hnf-btn__inner",
+      "targets": [
+        ["css=.hnf-btn--open-menu > .hnf-btn__inner", "css:finder"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b8168a3-1e7d-41a1-aa05-dac348c736e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hnf-menu__nav__main > li:nth-child(1) > .hnf-link",
+      "targets": [
+        ["css=.hnf-menu__nav__main > li:nth-child(1) > .hnf-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Products')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.ikea.com/ca/en/cat/products-products/')])[2]", "xpath:href"],
+        ["xpath=//div[3]/nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5d8fe2c-349a-4d04-847e-5fea2aee73f0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Outdoor",
+      "targets": [
+        ["linkText=Outdoor", "linkText"],
+        ["css=.hnf-menu__nav2:nth-child(2) > .hnf-menu__nav2__main > li:nth-child(8) > .hnf-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Outdoor')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/cat/outdoor-od001/')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dae44d5c-7a2e-45ee-8a33-00c02f8c03fd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Outdoor furniture",
+      "targets": [
+        ["linkText=Outdoor furniture", "linkText"],
+        ["css=li:nth-child(8) li:nth-child(2) > .hnf-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Outdoor furniture')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.ikea.com/ca/en/cat/outdoor-furniture-od003/')])[2]", "xpath:href"],
+        ["xpath=//li[8]/nav/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65e4eb87-4d40-47cf-8102-9dd54357d218",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.vn-link:nth-child(2) .hnf-image",
+      "targets": [
+        ["css=.vn-link:nth-child(2) .hnf-image", "css:finder"],
+        ["xpath=//img[@alt='Outdoor dining']", "xpath:img"],
+        ["xpath=//a[2]/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0f9c13f-95ee-4e63-b85d-5e836f2df1c1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.vn-link:nth-child(2) .hnf-image",
+      "targets": [
+        ["css=.vn-link:nth-child(2) .hnf-image", "css:finder"],
+        ["xpath=//img[@alt='Outdoor dining']", "xpath:img"],
+        ["xpath=//a[2]/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "853cf530-4bb1-4ee5-8ef5-90e2671462be",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.vn-link:nth-child(2) > .vn__nav__title",
+      "targets": [
+        ["css=.vn-link:nth-child(2) > .vn__nav__title", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Outdoor dining')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f3cef3b-7c60-421d-930c-308768b43f84",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.vn-link:nth-child(2) > .vn__nav__title",
+      "targets": [
+        ["css=.vn-link:nth-child(2) > .vn__nav__title", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Outdoor dining')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "318d24e7-2334-4a2a-a88c-5ca53507e2a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vn-link:nth-child(1) .hnf-image",
+      "targets": [
+        ["css=.vn-link:nth-child(1) .hnf-image", "css:finder"],
+        ["xpath=//img[@alt='Outdoor seating']", "xpath:img"],
+        ["xpath=//nav/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcf3b933-dfca-4623-a602-795d2392bb76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plp-fragment-wrapper:nth-child(2) .pip-aspect-ratio-box:nth-child(2) > .pip-image",
+      "targets": [
+        ["css=.plp-fragment-wrapper:nth-child(2) .pip-aspect-ratio-box:nth-child(2) > .pip-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.ikea.com/ca/en/images/products/naemmaroe-lounge-chair-outdoor-light-brown-stained__1185528_pe898427_s5.jpg?f=xxs')]", "xpath:img"],
+        ["xpath=//div[2]/div[2]/div/div/a/div/span[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "092e069e-bf3e-49c4-875e-fed945401cb2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pip-btn--fluid .pip-btn__label",
+      "targets": [
+        ["css=.pip-btn--fluid .pip-btn__label", "css:finder"],
+        ["xpath=//div[@id='pip-buy-module-content']/div[4]/div/div/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8020b0a-37ed-4eec-af50-750a32655256",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rec-btn--icon-primary-inverse > .rec-btn__inner",
+      "targets": [
+        ["css=.rec-btn--icon-primary-inverse > .rec-btn__inner", "css:finder"],
+        ["xpath=//div[3]/div/div/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "447e8c5f-7ba1-4fb3-8739-66570800ad29",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-shopping-cart-icon",
+      "targets": [
+        ["css=.js-shopping-cart-icon", "css:finder"],
+        ["xpath=//li[4]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dfef2ef-5ea6-42c2-850b-b0025cfe6aa2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Remove product",
+      "targets": [
+        ["linkText=Remove product", "linkText"],
+        ["css=.productControls_remove__\\+MOme > .cart-ingka-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Remove product')]", "xpath:link"],
+        ["xpath=//a[@type='tertiary']", "xpath:attributes"],
+        ["xpath=//main[@id='one-checkout']/main/div/div/div/div[22]/div[5]/div/div/div[2]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Remove product')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "676123b5-2105-431c-9b75-cab15cb912f6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.rec-carousel-slide:nth-child(2) .pip-aspect-ratio-box:nth-child(2) > .pip-image",
+      "targets": [
+        ["css=.rec-carousel-slide:nth-child(2) .pip-aspect-ratio-box:nth-child(2) > .pip-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.ikea.com/ca/en/images/products/naemmaroe-4-seat-conversation-set-outdoor-light-brown-stained-kuddarna-beige__1175365_ph190457_s5.jpg?f=xxs')]", "xpath:img"],
+        ["xpath=//div[@id='rec-carousel__cart-empty-cart']/div[2]/div/div/div/div/a/div/span[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/div/span[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9a1e3cd-0dad-49c8-9e3c-3d7fccddf501",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.rec-carousel-slide:nth-child(2) .pip-aspect-ratio-box:nth-child(2) > .pip-image",
+      "targets": [
+        ["css=.rec-carousel-slide:nth-child(2) .pip-aspect-ratio-box:nth-child(2) > .pip-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.ikea.com/ca/en/images/products/naemmaroe-4-seat-conversation-set-outdoor-light-brown-stained-kuddarna-beige__1175365_ph190457_s5.jpg?f=xxs')]", "xpath:img"],
+        ["xpath=//div[@id='rec-carousel__cart-empty-cart']/div[2]/div/div/div/div/a/div/span[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/div/span[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8ee351a-1aac-4f38-9f30-0144b9fbfe8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-ingka-btn--icon-tertiary-inverse > .cart-ingka-btn__inner",
+      "targets": [
+        ["css=.cart-ingka-btn--icon-tertiary-inverse > .cart-ingka-btn__inner", "css:finder"],
+        ["xpath=//main[@id='one-checkout']/main/div/div/div/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//main/div/div/div/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Close notification')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3299980e-0b89-46c6-8f0c-a191ed029792",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.noProducts_header__9wz2x",
+      "targets": [
+        ["css=.noProducts_header__9wz2x", "css:finder"],
+        ["xpath=//main[@id='one-checkout']/main/div/div/div/div[22]/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Your cart is empty')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "dca20aa7-7adb-48a8-9e1d-5a7ab5d7198c",
+    "name": "TestSortByPrice",
+    "commands": [{
+      "id": "013a00fe-42af-4e15-ab89-153e34d680ba",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ikea.com/ca/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18c3601c-ee82-4052-a6ce-1c2dee1ef2e1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ed1c4f4-18c6-4f0c-84db-35b98b3700f3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Rooms",
+      "targets": [
+        ["linkText=Rooms", "linkText"],
+        ["css=.hnf-header__nav__main > li:nth-child(2) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Rooms')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/rooms/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rooms')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4db6c13d-5d48-40e8-94f7-d8599b312738",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Rooms",
+      "targets": [
+        ["linkText=Rooms", "linkText"],
+        ["css=.hnf-header__nav__main > li:nth-child(2) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Rooms')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/rooms/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rooms')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2edc2238-4a17-433b-81fe-c565ff7685e6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Products",
+      "targets": [
+        ["linkText=Products", "linkText"],
+        ["css=.hnf-header__nav__main > li:nth-child(1) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Products')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/cat/products-products/')]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a603e312-6432-4d65-8c61-d092588e34fc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Products",
+      "targets": [
+        ["linkText=Products", "linkText"],
+        ["css=.hnf-header__nav__main > li:nth-child(1) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Products')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/cat/products-products/')]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "663fbab9-f291-46c1-8f36-789ef51e5373",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Products",
+      "targets": [
+        ["linkText=Products", "linkText"],
+        ["css=.hnf-header__nav__main > li:nth-child(1) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Products')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/cat/products-products/')]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46ab45a6-0c9a-499e-8547-ea9dbb637e51",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Outdoor",
+      "targets": [
+        ["linkText=Outdoor", "linkText"],
+        ["css=.hnf-menu__nav2:nth-child(2) > .hnf-menu__nav2__main > li:nth-child(8) > .hnf-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Outdoor')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/cat/outdoor-od001/')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "431e1502-519f-41f9-89a9-cf4e193a347e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Outdoor furniture",
+      "targets": [
+        ["linkText=Outdoor furniture", "linkText"],
+        ["css=li:nth-child(8) li:nth-child(2) > .hnf-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Outdoor furniture')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.ikea.com/ca/en/cat/outdoor-furniture-od003/')])[2]", "xpath:href"],
+        ["xpath=//li[8]/nav/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7ba1aa4-3e0c-4bf7-bd40-7f27c07b5726",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vn-link:nth-child(1) .hnf-image",
+      "targets": [
+        ["css=.vn-link:nth-child(1) .hnf-image", "css:finder"],
+        ["xpath=//img[@alt='Outdoor seating']", "xpath:img"],
+        ["xpath=//nav/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c52c5dca-a9be-4aa0-ac27-f67aaa4c97ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plp-pill:nth-child(1)",
+      "targets": [
+        ["css=.plp-pill:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sort')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3b5c889-41f5-4def-a86b-cd8b84ad3ee6",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.plp-radio-button:nth-child(3)",
+      "targets": [
+        ["css=.plp-radio-button:nth-child(3)", "css:finder"],
+        ["xpath=//label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'Price: low to high')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df2759a5-b065-4fa0-98c1-0ee2dc458996",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plp-radio-button:nth-child(3) > .plp-radio-button__text",
+      "targets": [
+        ["css=.plp-radio-button:nth-child(3) > .plp-radio-button__text", "css:finder"],
+        ["xpath=//label[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Price: low to high')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64c85015-0c39-4f2c-a295-29e512bea58b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plp-filter-information",
+      "targets": [
+        ["css=.plp-filter-information", "css:finder"],
+        ["xpath=//div[4]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b31c0939-2a9e-41be-94a3-0a5a08765d00",
+    "name": "TestSortByMostPopular",
+    "commands": [{
+      "id": "b30fe997-bc9f-469d-b1fd-aa89aa133723",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ikea.com/ca/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2963b2c-da85-4582-b7f8-85a710331fda",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76a3cd56-d864-44a8-b4ad-57709f0361a5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Best prices",
+      "targets": [
+        ["linkText=Best prices", "linkText"],
+        ["css=.hnf-header__nav__main > li:nth-child(3) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Best prices')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/campaigns/our-best-price-pubcc18f5f9')]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Best prices')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95c9c0e7-7be5-45f0-a8ea-5e537ba2e87f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Best prices",
+      "targets": [
+        ["linkText=Best prices", "linkText"],
+        ["css=.hnf-header__nav__main > li:nth-child(3) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Best prices')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/campaigns/our-best-price-pubcc18f5f9')]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Best prices')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "658b9fe9-1307-4cc0-9d55-163fc3fd3cb1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hnf-btn--open-menu > .hnf-btn__inner",
+      "targets": [
+        ["css=.hnf-btn--open-menu > .hnf-btn__inner", "css:finder"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4d2d319-b781-4fdc-b3e4-122327e547f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hnf-menu__nav__main > li:nth-child(1) > .hnf-link",
+      "targets": [
+        ["css=.hnf-menu__nav__main > li:nth-child(1) > .hnf-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Products')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.ikea.com/ca/en/cat/products-products/')])[2]", "xpath:href"],
+        ["xpath=//div[3]/nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa6f8757-4874-4007-98e2-689f6ded1225",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Outdoor",
+      "targets": [
+        ["linkText=Outdoor", "linkText"],
+        ["css=.hnf-menu__nav2:nth-child(2) > .hnf-menu__nav2__main > li:nth-child(8) > .hnf-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Outdoor')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/cat/outdoor-od001/')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98d5494a-8060-4923-9762-ae5c11c48987",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Outdoor furniture",
+      "targets": [
+        ["linkText=Outdoor furniture", "linkText"],
+        ["css=li:nth-child(8) li:nth-child(2) > .hnf-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Outdoor furniture')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.ikea.com/ca/en/cat/outdoor-furniture-od003/')])[2]", "xpath:href"],
+        ["xpath=//li[8]/nav/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40ad561c-df31-4631-be19-9f4454c5a2bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vn-link:nth-child(1) .hnf-image",
+      "targets": [
+        ["css=.vn-link:nth-child(1) .hnf-image", "css:finder"],
+        ["xpath=//img[@alt='Outdoor seating']", "xpath:img"],
+        ["xpath=//nav/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30f21627-60aa-411d-8406-63852d64f6cc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.vn-link:nth-child(2) > .vn__nav__title",
+      "targets": [
+        ["css=.vn-link:nth-child(2) > .vn__nav__title", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Outdoor sofa combinations')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b97dd9ee-c84c-4dfc-a811-2dd093477388",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.vn-link:nth-child(2) > .vn__nav__title",
+      "targets": [
+        ["css=.vn-link:nth-child(2) > .vn__nav__title", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Outdoor sofa combinations')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "153e72f4-7efb-4432-93c2-24515f000354",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.vn-link:nth-child(1) > .vn__nav__title",
+      "targets": [
+        ["css=.vn-link:nth-child(1) > .vn__nav__title", "css:finder"],
+        ["xpath=//nav/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Lounging & relaxing furniture')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bf87c6d-7aef-4093-8dce-fd41d1c3dc49",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.vn-link:nth-child(1) > .vn__nav__title",
+      "targets": [
+        ["css=.vn-link:nth-child(1) > .vn__nav__title", "css:finder"],
+        ["xpath=//nav/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Lounging & relaxing furniture')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5128be6a-17fe-4a05-8882-3d7524a51c10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plp-pill:nth-child(1)",
+      "targets": [
+        ["css=.plp-pill:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sort')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbda517a-443d-4d9d-b9fd-839c897724a3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.plp-radio-button:nth-child(7)",
+      "targets": [
+        ["css=.plp-radio-button:nth-child(7)", "css:finder"],
+        ["xpath=//label[6]", "xpath:position"],
+        ["xpath=//label[contains(.,'Most popular')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6fa0892-3660-4545-831b-8633e40c452c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plp-radio-button:nth-child(7)",
+      "targets": [
+        ["css=.plp-radio-button:nth-child(7)", "css:finder"],
+        ["xpath=//label[6]", "xpath:position"],
+        ["xpath=//label[contains(.,'Most popular')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f7b0eef-7263-4dc4-b4cd-0b0051a8bcc6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plp-pill--active",
+      "targets": [
+        ["css=.plp-pill--active", "css:finder"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sort')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "42f29f0c-1872-4ecc-a97e-01329d355021",
+    "name": "Login Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["96a76ca0-876f-4bb9-b077-472d0d2a072c", "ebefb03d-58c4-4569-b09a-ffef572fd7be"]
+  }, {
+    "id": "864155bb-4b45-4fb7-8400-84efb7034029",
+    "name": "Search Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["09f3a956-7d6b-429d-944b-6bb7e8450566", "a95a8edc-9c37-4a94-b3b9-89eece68603b"]
+  }, {
+    "id": "716e6c7c-8455-4884-b7c3-49d2c95d90a2",
+    "name": "Cart Functionality",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a02ff790-70cb-463c-ac95-01b67fb22bc7", "eb18b57c-11a7-4a42-a6d0-6534e7ce9121"]
+  }, {
+    "id": "bc5b78b5-e70f-4f37-b7ff-7f5ee28c7695",
+    "name": "Dropdown Sort Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b31c0939-2a9e-41be-94a3-0a5a08765d00", "dca20aa7-7adb-48a8-9e1d-5a7ab5d7198c"]
+  }],
+  "urls": ["https://www.ikea.com/", "https://www.ikea.com/ca/en/"],
+  "plugins": []
+}
